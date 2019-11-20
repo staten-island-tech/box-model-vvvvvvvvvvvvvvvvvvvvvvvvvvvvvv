@@ -1,0 +1,25 @@
+html {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.header {
+ height: 15vh;
+ background-color: rgba(0, 195, 255);
+ position: relative;
+ border: 2rem;
+ border-color: black;
+}
+
+h3{
+    animation-delay: 0s;
+    animation-duration: 10s;
+    animation-name: anthem;
+    animation-iteration-count: infinite;
+}
+
+div {
+    height: 20rem;
+}
