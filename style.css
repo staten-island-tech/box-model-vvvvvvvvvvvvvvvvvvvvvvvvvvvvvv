@@ -3,23 +3,36 @@ html {
     padding: 0%;
     box-sizing: border-box;
     font-size: 62.5%;
+    letter-spacing: normal;
 }
 
 .header {
  height: 15vh;
- background-color: rgba(0, 195, 255);
+ background-color: rgb(255, 0, 0);
  position: relative;
  border: 2rem;
  border-color: black;
 }
 
-h3{
-    animation-delay: 0s;
-    animation-duration: 10s;
-    animation-name: anthem;
-    animation-iteration-count: infinite;
+div {
+    position: relative;
+    left: 0%;
+    text-align: center;
 }
 
-div {
+img {
     height: 20rem;
+}
+
+h3{
+    text-transform: uppercase;
+    position: absolute;
+    top: -8%;
+    left: 1%;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 2.2rem;
+}
+
+#illusion {
+
 }
