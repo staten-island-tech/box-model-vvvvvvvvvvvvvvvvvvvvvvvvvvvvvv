@@ -7,11 +7,12 @@ html {
 }
 
 .header {
- height: 15vh;
- background-color: rgb(255, 0, 0);
- position: relative;
- border: 2rem;
- border-color: black;
+ position: absolute;
+ width: 100%;
+}
+
+.flag{
+width: 200%;
 }
 
 div {
@@ -27,12 +28,27 @@ img {
 h3{
     text-transform: uppercase;
     position: absolute;
-    top: -8%;
+    top: -9%;
     left: 1%;
     font-family: 'Franklin Gothic Medium';
     font-size: 2.2rem;
 }
 
-#illusion {
-
+#red {
+   background-color: rgba(255, 0, 0, 0.4);
 }
+#orange {
+    background-color: rgba(255, 145, 0, 0.53);
+ }
+ #yellow {
+    background-color: rgba(255, 217, 0, 0.527);
+ }
+ #green {
+    background-color: rgba(4, 160, 4, 0.5);
+ }
+ #blue {
+    background-color: rgba(1, 58, 247, 0.52);
+ }
+ #purple {
+    background-color: rgba(152, 0, 253, 0.51);
+ }
